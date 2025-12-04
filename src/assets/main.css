@@ -1,0 +1,60 @@
+/* @import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+
+/* In src/style.css */
+@import url("https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-sans/style.css");
+
+:root {
+
+  font-family: 'Geist Sans', sans-serif ;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw; /* Forces full width */
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+#app {
+  width: 100%; /* Allows your app to stretch fully */
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Stops the text from centering itself */
+}
