@@ -10,7 +10,7 @@ import ServicesSection from './components/ServicesSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import FooterSection from './components/FooterSection.vue';
 </script>
-
+<!-- // Setup on Dell 7300 -->
 <template>
   <div class="app-container">
     <Navbar />
